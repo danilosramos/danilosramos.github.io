@@ -316,3 +316,6 @@ h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
   body { background: #fff; color: #000; }
   .block { border-color: #ccc; }
 }
+
+/* Mantém termos com hífen numa linha só */
+.nw { white-space: nowrap; }
