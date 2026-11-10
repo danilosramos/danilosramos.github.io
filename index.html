@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danilo Silveira Ramos | Portfólio</title>
+  <meta name="description" content="Portfólio de Danilo Silveira Ramos: dados sintéticos e visão computacional para drones. Estudante de TIC na UFSC e Simulation & Dataset Developer na Global Drones.">
+  <meta name="author" content="Danilo Silveira Ramos">
+  <link rel="canonical" href="https://danilosramos.github.io/">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0E1A2E">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Danilo Silveira Ramos">
+  <meta property="og:description" content="Dados sintéticos e visão computacional para drones.">
+  <meta property="og:url" content="https://danilosramos.github.io/">
+  <meta property="og:image" content="https://danilosramos.github.io/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script>
+    /* Escolhe o idioma antes de desenhar a página: ?lang= > escolha salva > idioma do navegador */
+    (function () {
+      try {
+        var p = new URLSearchParams(location.search).get('lang');
+        var s = null;
+        try { s = localStorage.getItem('portfolio-lang'); } catch (e) {}
+        var n = (navigator.languages && navigator.languages[0]) || navigator.language || 'pt';
+        var l = p ? (p.toLowerCase().indexOf('en') === 0 ? 'en' : 'pt-BR')
+                  : (s === 'en' || s === 'pt-BR') ? s
+                  : (n.toLowerCase().indexOf('pt') === 0 ? 'pt-BR' : 'en');
+        document.documentElement.lang = l;
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preload" href="assets/fonts/b612-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/b612-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Danilo Silveira Ramos",
+    "jobTitle": "Simulation & Dataset Developer",
+    "worksFor": { "@type": "Organization", "name": "Global Drones" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidade Federal de Santa Catarina" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Araranguá", "addressRegion": "SC", "addressCountry": "BR" },
+    "url": "https://danilosramos.github.io/",
+    "image": "https://danilosramos.github.io/assets/img/danilo.jpg",
+    "sameAs": ["https://www.linkedin.com/in/danilo-silveira-ramos", "https://github.com/danilosramos"],
+    "knowsAbout": ["Computer vision", "Synthetic data generation", "Drones", "Unreal Engine 5", "Blender"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo"><span data-l="pt">Pular para o conteúdo</span><span data-l="en">Skip to content</span></a>
+
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="#inicio">Danilo Silveira Ramos</a>
+      <nav class="nav" data-attr="aria-label" data-pt="Seções" data-en="Sections" aria-label="Seções">
+        <a href="#quem-sou"><span data-l="pt">Quem sou</span><span data-l="en">About</span></a>
+        <a href="#objetivo"><span data-l="pt">Objetivo</span><span data-l="en">Goal</span></a>
+        <a href="#formacao"><span data-l="pt">Formação</span><span data-l="en">Experience</span></a>
+        <a href="#competencias"><span data-l="pt">Competências</span><span data-l="en">Skills</span></a>
+        <a href="#desenvolvimento"><span data-l="pt">Desenvolvimento</span><span data-l="en">Development</span></a>
+        <a href="#contato"><span data-l="pt">Contato</span><span data-l="en">Contact</span></a>
+      </nav>
+      <div class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-set-lang="pt-BR" aria-pressed="true" title="Português">PT</button>
+        <button type="button" data-set-lang="en" aria-pressed="false" title="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero wrap" id="inicio">
+      <div class="hero-text">
+        <h1>Danilo Silveira Ramos</h1>
+        <p class="lead" data-l="pt">Crio ambientes 3D que viram dados para treinar visão computacional em drones.</p>
+        <p class="lead" data-l="en">I build 3D worlds that become training data for computer vision on drones.</p>
+        <p class="sub" data-l="pt">Estudo Tecnologias da Informação e Comunicação na UFSC e trabalho como Simulation &amp; Dataset Developer na Global Drones.</p>
+        <p class="sub" data-l="en">I study Information and Communication Technologies at UFSC, in Brazil, and work as a Simulation &amp; Dataset Developer at Global Drones.</p>
+        <ul class="links">
+          <li><a class="btn" href="https://www.linkedin.com/in/danilo-silveira-ramos" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a class="btn" href="https://github.com/danilosramos" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a class="btn" href="mailto:danilosramos2005@gmail.com"><span data-l="pt">E-mail</span><span data-l="en">Email</span></a></li>
+        </ul>
+      </div>
+
+      <figure class="sample" data-ann="on">
+        <div class="frame">
+          <picture>
+            <source type="image/webp" srcset="assets/img/danilo-600.webp 600w, assets/img/danilo.webp 864w" sizes="(min-width: 900px) 440px, 88vw">
+            <img src="assets/img/danilo.jpg" width="864" height="1184"
+                 alt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
+                 data-attr="alt"
+                 data-pt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
+                 data-en="Photo of Danilo Silveira Ramos, wearing glasses and a dark jacket, in front of glass buildings and palm trees.">
+          </picture>
+          <svg class="boxes" viewBox="0 0 864 1184" aria-hidden="true" focusable="false">
+            <g class="det" style="--i:0;--c:var(--cls-person)">
+              <path class="box" pathLength="1" d="M6 330H856V1180H6Z"/>
+              <g class="tag"><rect x="6" y="294" width="170" height="36"/><text x="15" y="320">person 0.97</text></g>
+            </g>
+            <g class="det" style="--i:1;--c:var(--cls-building)">
+              <path class="box" pathLength="1" d="M712 2H862V800H712Z"/>
+              <g class="tag"><rect x="674" y="2" width="188" height="36"/><text x="683" y="28">building 0.88</text></g>
+            </g>
+            <g class="det" style="--i:2;--c:var(--cls-building)">
+              <path class="box" pathLength="1" d="M56 456H180V590H56Z"/>
+              <g class="tag"><rect x="56" y="420" width="188" height="36"/><text x="65" y="446">building 0.71</text></g>
+            </g>
+            <g class="det" style="--i:3;--c:var(--cls-tree)">
+              <path class="box" pathLength="1" d="M596 588H690V782H596Z"/>
+              <g class="tag"><rect x="596" y="552" width="135" height="36"/><text x="605" y="578">tree 0.64</text></g>
+            </g>
+          </svg>
+        </div>
+        <figcaption>
+          <p data-l="pt">Foto real com o tipo de anotação que um detector de objetos aprende. No trabalho, gero milhares de imagens assim, só que sintéticas.</p>
+          <p data-l="en">A real photo with the kind of annotation an object detector learns from. At work I generate thousands of images like this, only synthetic.</p>
+          <button type="button" class="ann-toggle" data-toggle-ann>
+            <span class="when-on"><span data-l="pt">Ocultar anotação</span><span data-l="en">Hide annotation</span></span>
+            <span class="when-off"><span data-l="pt">Mostrar anotação</span><span data-l="en">Show annotation</span></span>
+          </button>
+        </figcaption>
+      </figure>
+    </section>
+
+    <!-- ===================== QUEM SOU ===================== -->
+    <section class="block" id="quem-sou" aria-labelledby="h-quem-sou">
+      <div class="wrap">
+        <h2 id="h-quem-sou"><span data-l="pt">Quem sou</span><span data-l="en">About me</span></h2>
+        <div class="about">
+          <div class="prose">
+            <div data-l="pt">
+              <p>Sou estudante de Tecnologias da Informação e Comunicação na UFSC Araranguá, com formatura prevista para dezembro de 2028. Comecei em Engenharia de Computação, onde descobri a visão computacional, e hoje trabalho com ela na prática.</p>
+              <p>Na Global Drones, crio cenários 3D fotorrealistas em Unreal Engine 5 e Blender para gerar imagens sintéticas que treinam modelos de detecção para drones autônomos. Antes disso, criei modelos 3D de patologias para realidade mista no LabTeC/UFSC, avaliei respostas de IA em português e inglês na Outlier e produzi conteúdo de computação e matemática para o Quizlet.</p>
+            </div>
+            <div data-l="en">
+              <p>I'm an Information and Communication Technologies student at UFSC Araranguá, Brazil, graduating in December 2028. I started out in Computer Engineering, where I found computer vision, and now I work with it every day.</p>
+              <p>At Global Drones, I build photorealistic 3D scenes in Unreal Engine 5 and Blender to generate synthetic images that train detection models for autonomous drones. Before that, I created 3D pathology models for mixed reality at LabTeC/UFSC, evaluated AI responses in Portuguese and English at Outlier, and wrote computing and math content for Quizlet.</p>
+            </div>
+          </div>
+          <dl class="facts">
+            <div>
+              <dt><span data-l="pt">Onde estou</span><span data-l="en">Based in</span></dt>
+              <dd><span data-l="pt">Araranguá, Santa Catarina</span><span data-l="en">Araranguá, Santa Catarina, Brazil</span></dd>
+            </div>
+            <div>
+              <dt><span data-l="pt">Formação</span><span data-l="en">Education</span></dt>
+              <dd><span data-l="pt">Bacharelado em TIC, UFSC (previsão: dez. 2028)</span><span data-l="en">B.Sc. in Information and Communication Technologies, UFSC (expected Dec 2028)</span></dd>
+            </div>
+            <div>
+              <dt><span data-l="pt">Hoje</span><span data-l="en">Now</span></dt>
+              <dd><span data-l="pt">Simulation &amp; Dataset Developer na Global Drones</span><span data-l="en">Simulation &amp; Dataset Developer at Global Drones</span></dd>
+            </div>
+            <div>
+              <dt><span data-l="pt">Idiomas</span><span data-l="en">Languages</span></dt>
+              <dd><span data-l="pt">Português nativo e inglês profissional</span><span data-l="en">Portuguese (native) and English (professional)</span></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== OBJETIVO ===================== -->
+    <section class="block" id="objetivo" aria-labelledby="h-objetivo">
+      <div class="wrap">
+        <h2 id="h-objetivo"><span data-l="pt">Objetivo profissional</span><span data-l="en">Career goal</span></h2>
+        <p class="goal" data-l="pt">Daqui a 10 anos, quero trabalhar com visão computacional aplicada a VANTs e ter minha própria empresa.</p>
+        <p class="goal" data-l="en">Ten years from now, I want to work in computer vision for drones and run my own company.</p>
+        <div class="prose">
+          <p data-l="pt">Sempre gostei de drones e aviação. Quando comecei a estudar visão computacional, ainda na Engenharia de Computação, ela virou a área de que eu mais gostava, e é onde esses dois interesses se encontram. A área da empresa ainda está em aberto: vou defini-la testando ideias ao longo do caminho.</p>
+          <p data-l="en">I've always loved drones and aviation. When I started studying computer vision, back in Computer Engineering, it became my favorite field, and it's where those two interests meet. The company's field is still open: I'll define it by testing ideas along the way.</p>
+        </div>
+
+        <h3 class="route-title"><span data-l="pt">Plano de voo</span><span data-l="en">Flight plan</span></h3>
+        <ol class="route">
+          <li class="wp is-now">
+            <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
+            <p class="wp-when"><span data-l="pt">2026, agora</span><span data-l="en">2026, now</span></p>
+            <p class="wp-what"><span data-l="pt">Dados sintéticos e visão computacional para drones na Global Drones</span><span data-l="en">Synthetic data and computer vision for drones at Global Drones</span></p>
+          </li>
+          <li class="wp">
+            <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
+            <p class="wp-when">2027</p>
+            <p class="wp-what"><span data-l="pt">Liderar um projeto de visão computacional</span><span data-l="en">Lead a computer vision project</span></p>
+          </li>
+          <li class="wp">
+            <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
+            <p class="wp-when"><span data-l="pt">Dez. 2028</span><span data-l="en">Dec 2028</span></p>
+            <p class="wp-what"><span data-l="pt">Formatura em TIC e decisão sobre o mestrado</span><span data-l="en">Graduate and decide on a master's degree</span></p>
+          </li>
+          <li class="wp">
+            <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
+            <p class="wp-when">2029–2035</p>
+            <p class="wp-what"><span data-l="pt">Carreira em visão computacional aplicada a VANTs</span><span data-l="en">Career in computer vision for drones</span></p>
+          </li>
+          <li class="wp">
+            <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
+            <p class="wp-when"><span data-l="pt">Até 2036</span><span data-l="en">By 2036</span></p>
+            <p class="wp-what"><span data-l="pt">Empresa própria</span><span data-l="en">My own company</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== FORMAÇÃO E EXPERIÊNCIAS ===================== -->
+    <section class="block" id="formacao" aria-labelledby="h-formacao">
+      <div class="wrap">
+        <h2 id="h-formacao"><span data-l="pt">Formação e experiências</span><span data-l="en">Education and experience</span></h2>
+
+        <h3><span data-l="pt">Experiência profissional</span><span data-l="en">Work experience</span></h3>
+        <ol class="xp">
+          <li>
+            <p class="xp-when"><span data-l="pt">dez. 2025 – hoje</span><span data-l="en">Dec 2025 – present</span></p>
+            <div class="xp-body">
+              <h4>Simulation &amp; Dataset Developer</h4>
+              <p class="xp-org">Global Drones</p>
+              <ul data-l="pt">
+                <li>Crio ambientes 3D fotorrealistas e cenários aéreos em Unreal Engine 5 para gerar datasets sintéticos de visão computacional.</li>
+                <li>Modelo, texturizo e otimizo assets 3D (drones, aves e obstáculos) em Blender e Substance Painter.</li>
+                <li>Gero imagens anotadas com variações de luz e clima para reduzir a diferença entre simulação e mundo real em um sistema de Detect and Avoid (DAA).</li>
+                <li>Desenvolvi um pipeline em Python que exporta mais de 8.000 imagens anotadas no formato YOLO.</li>
+              </ul>
+              <ul data-l="en">
+                <li>Build photorealistic 3D environments and aerial scenarios in Unreal Engine 5 to generate synthetic computer vision datasets.</li>
+                <li>Model, texture and optimize 3D assets (drones, birds and obstacles) in Blender and Substance Painter.</li>
+                <li>Generate annotated images across lighting and weather conditions to narrow the sim-to-real gap for a Detect and Avoid (DAA) system.</li>
+                <li>Built a Python pipeline that exports 8,000+ annotated images in YOLO format.</li>
+              </ul>
+              <p class="note"><span data-l="pt">Por contrato de confidencialidade, este trabalho aparece só em texto.</span><span data-l="en">Under a confidentiality agreement, this work is described in text only.</span></p>
+            </div>
+          </li>
+          <li>
+            <p class="xp-when"><span data-l="pt">fev. – ago. 2026</span><span data-l="en">Feb – Aug 2026</span></p>
+            <div class="xp-body">
+              <h4>Multilingual AI Trainer</h4>
+              <p class="xp-org">Outlier AI</p>
+              <ul data-l="pt">
+                <li>Avaliação multimodal em português e inglês: descrição de imagens e verificação de respostas de IA.</li>
+                <li>Controle de qualidade e rotulagem de dados para pipelines de RLHF.</li>
+              </ul>
+              <ul data-l="en">
+                <li>Multimodal evaluation in Portuguese and English: image description and AI response verification.</li>
+                <li>Quality assurance and data labeling for RLHF pipelines.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p class="xp-when"><span data-l="pt">mar. 2024 – out. 2025</span><span data-l="en">Mar 2024 – Oct 2025</span></p>
+            <div class="xp-body">
+              <h4><span data-l="pt">Pesquisador de iniciação científica e desenvolvedor 3D</span><span data-l="en">Undergraduate Researcher and 3D Developer</span></h4>
+              <p class="xp-org">LabTeC, UFSC</p>
+              <ul data-l="pt">
+                <li>Criei mais de 20 modelos 3D de patologias para realidade mista no Microsoft HoloLens 2, no projeto HoloAnaPath.</li>
+                <li>Otimizei os modelos para renderização em tempo real em hardware móvel, sem perder a precisão anatômica.</li>
+                <li>Apresentei o projeto no Summit Cidades 2025 e na SNCT 2025.</li>
+              </ul>
+              <ul data-l="en">
+                <li>Created 20+ 3D pathology models for mixed reality on Microsoft HoloLens 2 for the HoloAnaPath project.</li>
+                <li>Optimized them for real-time rendering on mobile hardware while keeping anatomical accuracy.</li>
+                <li>Presented the project at Summit Cidades 2025 and SNCT 2025.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <p class="xp-when"><span data-l="pt">jul. – nov. 2024</span><span data-l="en">Jul – Nov 2024</span></p>
+            <div class="xp-body">
+              <h4><span data-l="pt">Colaborador de conteúdo STEM</span><span data-l="en">STEM Content Contributor</span></h4>
+              <p class="xp-org">Quizlet</p>
+              <ul data-l="pt">
+                <li>Criação e revisão de conteúdo de computação e matemática com LaTeX e KaTeX, em português e inglês.</li>
+              </ul>
+              <ul data-l="en">
+                <li>Created and reviewed computing and math content with LaTeX and KaTeX, in Portuguese and English.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3><span data-l="pt">Formação acadêmica</span><span data-l="en">Education</span></h3>
+        <ol class="xp">
+          <li>
+            <p class="xp-when"><span data-l="pt">2023 – dez. 2028</span><span data-l="en">2023 – Dec 2028</span></p>
+            <div class="xp-body">
+              <h4><span data-l="pt">Bacharelado em Tecnologias da Informação e Comunicação</span><span data-l="en">B.Sc. in Information and Communication Technologies</span></h4>
+              <p class="xp-org"><span data-l="pt">Universidade Federal de Santa Catarina (UFSC), Araranguá. Formatura prevista para dezembro de 2028.</span><span data-l="en">Federal University of Santa Catarina (UFSC), Araranguá, Brazil. Expected to graduate in December 2028.</span></p>
+              <ul data-l="pt">
+                <li>Foco em inteligência artificial, pipelines de geração de dados e engenharia de software.</li>
+                <li>Antes da transferência para TIC, cursei Engenharia de Computação, com base em C/C++ e sistemas embarcados.</li>
+              </ul>
+              <ul data-l="en">
+                <li>Focus on artificial intelligence, data generation pipelines and software engineering.</li>
+                <li>Transferred from Computer Engineering, which gave me a base in C/C++ and embedded systems.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3><span data-l="pt">Projetos</span><span data-l="en">Projects</span></h3>
+        <ul class="projects">
+          <li>
+            <h4><span data-l="pt">Pipeline de dados sintéticos para voo autônomo</span><span data-l="en">Synthetic data pipeline for autonomous flight</span></h4>
+            <p><span data-l="pt">Cenários 3D em Unreal Engine 5 com exportação automática de anotações em Python.</span><span data-l="en">3D scenes in Unreal Engine 5 with automated annotation export in Python.</span></p>
+            <p class="stack">Unreal Engine 5, Python</p>
+          </li>
+          <li>
+            <h4>HoloAnaPath</h4>
+            <p><span data-l="pt">Modelos 3D de patologias para o ensino de medicina em realidade mista.</span><span data-l="en">3D pathology models for teaching medicine in mixed reality.</span></p>
+            <p class="stack">Blender, Substance Painter, HoloLens 2</p>
+          </li>
+          <li>
+            <h4><span data-l="pt">Plataforma de ensino on-line (Meninas Digitais)</span><span data-l="en">Online learning platform (Meninas Digitais)</span></h4>
+            <p><span data-l="pt">Plataforma full-stack de cursos on-line.</span><span data-l="en">Full-stack platform for online courses.</span></p>
+            <p class="stack">TypeScript, NestJS, Next.js, Docker</p>
+          </li>
+          <li>
+            <h4>KetMaker</h4>
+            <p><span data-l="pt">Simulador de circuitos quânticos.</span><span data-l="en">Quantum circuit simulator.</span></p>
+            <p class="stack">Python, Flask</p>
+          </li>
+          <li>
+            <h4><span data-l="pt">Sistema antigelo aeronáutico</span><span data-l="en">Aircraft anti-icing system</span></h4>
+            <p><span data-l="pt">Sistema antigelo para aeronaves, programado em C em um microcontrolador PIC.</span><span data-l="en">Anti-icing system for aircraft, programmed in C on a PIC microcontroller.</span></p>
+            <p class="stack">C, PIC</p>
+          </li>
+        </ul>
+        <p class="more"><span data-l="pt">Outros projetos no</span><span data-l="en">More projects on</span> <a href="https://github.com/danilosramos" target="_blank" rel="noopener">GitHub</a>.</p>
+
+        <div class="two-col">
+          <div>
+            <h3><span data-l="pt">Cursos e certificados</span><span data-l="en">Courses and certificates</span></h3>
+            <ul class="plain" lang="en">
+              <li>Introduction to Prompt Engineering</li>
+              <li>Artificial Intelligence: Your Ally in the Java and Cloud Journey</li>
+              <li>Java Programming Language Fundamentals</li>
+              <li>Java Control Structures</li>
+            </ul>
+          </div>
+          <div>
+            <h3><span data-l="pt">Eventos</span><span data-l="en">Events</span></h3>
+            <ul class="plain">
+              <li><span data-l="pt">Summit Cidades 2025: apresentação do HoloAnaPath</span><span data-l="en">Summit Cidades 2025: presented HoloAnaPath</span></li>
+              <li><span data-l="pt">SNCT 2025 (Semana Nacional de Ciência e Tecnologia): apresentação do HoloAnaPath</span><span data-l="en">SNCT 2025 (Brazil's National Science and Technology Week): presented HoloAnaPath</span></li>
+              <li><span data-l="pt">Startup Weekend: duas participações</span><span data-l="en">Startup Weekend: took part twice</span></li>
+              <li>ACIVA Career Fair 2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COMPETÊNCIAS ===================== -->
+    <section class="block" id="competencias" aria-labelledby="h-competencias">
+      <div class="wrap">
+        <h2 id="h-competencias"><span data-l="pt">Minhas competências</span><span data-l="en">Skills</span></h2>
+        <div class="skills">
+          <div class="skill-group">
+            <h3><span data-l="pt">Visão computacional e dados</span><span data-l="en">Computer vision and data</span></h3>
+            <ul class="chips">
+              <li><span data-l="pt">Geração de dados sintéticos</span><span data-l="en">Synthetic data generation</span></li>
+              <li><span data-l="pt">Anotação no formato YOLO</span><span data-l="en">YOLO-format annotation</span></li>
+              <li>OpenCV</li>
+              <li><span data-l="pt">Avaliação multimodal e RLHF</span><span data-l="en">Multimodal evaluation and RLHF</span></li>
+              <li><span data-l="pt">Controle de qualidade de dados</span><span data-l="en">Data quality assurance</span></li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3><span data-l="pt">Simulação e 3D</span><span data-l="en">Simulation and 3D</span></h3>
+            <ul class="chips">
+              <li>Unreal Engine 5</li>
+              <li>Blender</li>
+              <li>Substance Painter</li>
+              <li>NVIDIA Isaac Sim</li>
+              <li><span data-l="pt">Realidade mista (HoloLens 2)</span><span data-l="en">Mixed reality (HoloLens 2)</span></li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3><span data-l="pt">Programação</span><span data-l="en">Programming</span></h3>
+            <ul class="chips">
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>TypeScript</li>
+              <li>LaTeX</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3><span data-l="pt">Back-end e ferramentas</span><span data-l="en">Back end and tools</span></h3>
+            <ul class="chips">
+              <li><span data-l="pt">Git e GitHub</span><span data-l="en">Git and GitHub</span></li>
+              <li>Docker</li>
+              <li><span data-l="pt">Linux e Bash</span><span data-l="en">Linux and Bash</span></li>
+              <li>FastAPI</li>
+              <li>PostgreSQL</li>
+              <li><span data-l="pt">APIs REST</span><span data-l="en">REST APIs</span></li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3><span data-l="pt">Drones e embarcados</span><span data-l="en">Drones and embedded</span></h3>
+            <ul class="chips">
+              <li><span data-l="pt">Pilotagem de drones em campo</span><span data-l="en">Field drone piloting</span></li>
+              <li><span data-l="pt">C para microcontroladores</span><span data-l="en">C for microcontrollers</span></li>
+              <li>Assembly</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3><span data-l="pt">Comportamentais</span><span data-l="en">Soft skills</span></h3>
+            <ul class="chips">
+              <li><span data-l="pt">Autonomia no trabalho remoto</span><span data-l="en">Autonomy in remote work</span></li>
+              <li><span data-l="pt">Atenção a detalhes</span><span data-l="en">Attention to detail</span></li>
+              <li><span data-l="pt">Comunicação técnica em português e inglês</span><span data-l="en">Technical communication in Portuguese and English</span></li>
+              <li><span data-l="pt">Apresentação em eventos</span><span data-l="en">Presenting at events</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DESENVOLVIMENTO ===================== -->
+    <section class="block" id="desenvolvimento" aria-labelledby="h-desenvolvimento">
+      <div class="wrap">
+        <h2 id="h-desenvolvimento"><span data-l="pt">Meu desenvolvimento profissional</span><span data-l="en">Professional development</span></h2>
+        <p class="intro"><span data-l="pt">O que ainda preciso aprender para chegar ao meu objetivo, e como pretendo fazer isso.</span><span data-l="en">What I still need to learn to reach my goal, and how I plan to do it.</span></p>
+        <div class="dev-head" aria-hidden="true">
+          <span><span data-l="pt">O que desenvolver</span><span data-l="en">What to develop</span></span>
+          <span><span data-l="pt">Como</span><span data-l="en">How</span></span>
+          <span><span data-l="pt">Quando</span><span data-l="en">When</span></span>
+        </div>
+        <ul class="dev">
+          <li>
+            <h3><span data-l="pt">Python avançado e deep learning (PyTorch)</span><span data-l="en">Advanced Python and deep learning (PyTorch)</span></h3>
+            <p class="how"><span data-l="pt">Cursos e projetos próprios treinando detectores de objetos</span><span data-l="en">Courses and side projects training object detectors</span></p>
+            <p class="when">2026–2027</p>
+          </li>
+          <li>
+            <h3><span data-l="pt">IA embarcada: NVIDIA Jetson e TensorRT</span><span data-l="en">Edge AI: NVIDIA Jetson and TensorRT</span></h3>
+            <p class="how"><span data-l="pt">Rodar modelos em hardware de drone e medir a latência</span><span data-l="en">Run models on drone hardware and measure latency</span></p>
+            <p class="when">2027</p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Robótica de voo: ROS 2 e PX4</span><span data-l="en">Flight robotics: ROS 2 and PX4</span></h3>
+            <p class="how"><span data-l="pt">Integrar percepção e controle em simulação antes do voo real</span><span data-l="en">Connect perception and control in simulation before real flights</span></p>
+            <p class="when">2027–2028</p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Matemática para visão: álgebra linear e geometria de câmeras</span><span data-l="en">Math for vision: linear algebra and camera geometry</span></h3>
+            <p class="how"><span data-l="pt">Disciplinas da graduação e estudo por conta própria</span><span data-l="en">University courses and self-study</span></p>
+            <p class="when"><span data-l="pt">Até 2028</span><span data-l="en">By 2028</span></p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Regulamentação de drones (ANAC e DECEA)</span><span data-l="en">Drone regulations in Brazil (ANAC and DECEA)</span></h3>
+            <p class="how"><span data-l="pt">Estudar as regras de cadastro e de operação</span><span data-l="en">Study the registration and operating rules</span></p>
+            <p class="when">2027</p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Liderança e gestão de projetos</span><span data-l="en">Leadership and project management</span></h3>
+            <p class="how"><span data-l="pt">Liderar um projeto de visão computacional</span><span data-l="en">Lead a computer vision project</span></p>
+            <p class="when">2027</p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Negócios: validar ideias, finanças e vendas</span><span data-l="en">Business: validating ideas, finance and sales</span></h3>
+            <p class="how"><span data-l="pt">Startup Weekends, cursos de empreendedorismo e testes em pequena escala</span><span data-l="en">Startup Weekends, entrepreneurship courses and small-scale tests</span></p>
+            <p class="when"><span data-l="pt">Contínuo</span><span data-l="en">Ongoing</span></p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Inglês fluente</span><span data-l="en">Fluent English</span></h3>
+            <p class="how"><span data-l="pt">Prática diária e uma certificação internacional</span><span data-l="en">Daily practice and an international certificate</span></p>
+            <p class="when"><span data-l="pt">Até 2028</span><span data-l="en">By 2028</span></p>
+          </li>
+          <li>
+            <h3><span data-l="pt">Mestrado (em avaliação)</span><span data-l="en">Master's degree (under consideration)</span></h3>
+            <p class="how"><span data-l="pt">Decidir até a formatura se faço mestrado em visão computacional ou robótica</span><span data-l="en">Decide by graduation whether to pursue one in computer vision or robotics</span></p>
+            <p class="when">2028</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="block contact" id="contato" aria-labelledby="h-contato">
+      <div class="wrap">
+        <h2 id="h-contato"><span data-l="pt">Contato</span><span data-l="en">Contact</span></h2>
+        <p class="intro"><span data-l="pt">Quer conversar sobre uma vaga, um projeto ou uma pesquisa? Me escreva.</span><span data-l="en">Want to talk about a role, a project or research? Get in touch.</span></p>
+        <ul class="contact-list">
+          <li><a href="mailto:danilosramos2005@gmail.com">danilosramos2005@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/danilo-silveira-ramos" target="_blank" rel="noopener">linkedin.com/in/danilo-silveira-ramos</a></li>
+          <li><a href="https://github.com/danilosramos" target="_blank" rel="noopener">github.com/danilosramos</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p><span data-l="pt">Atualizado em novembro de 2026. Texto em B612, a fonte que a Airbus criou para as telas de cockpit.</span><span data-l="en">Updated November 2026. Set in B612, the typeface Airbus created for cockpit displays.</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
