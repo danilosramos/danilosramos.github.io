@@ -8,8 +8,8 @@ Site estático (HTML, CSS e JavaScript puros), sem build. Para publicar uma muda
 
 - **Textos:** tudo está em `index.html`. Cada texto aparece duas vezes, uma em português (`data-l="pt"`) e outra em inglês (`data-l="en"`). Ao mudar um, mude o outro também.
 - **Estilo:** `assets/css/style.css`. As cores ficam no topo, em `:root`.
-- **Troca de idioma e botão da anotação:** `assets/js/main.js`.
-- **Foto e caixas do detector:** a foto está em `assets/img/`. As caixas são o `<svg class="boxes">` no `index.html`, em coordenadas da foto original (864 × 1184 px).
+- **Troca de idioma:** `assets/js/main.js`.
+- **Foto:** `assets/img/` (`danilo.jpg`, `danilo.webp` e `danilo-600.webp`). A imagem de compartilhamento em redes sociais é `og.jpg`.
 - **Link direto em inglês:** https://danilosramos.github.io/?lang=en
 
 ## Créditos

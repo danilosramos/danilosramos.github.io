@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Danilo Silveira Ramos | Portfólio</title>
-  <meta name="description" content="Portfólio de Danilo Silveira Ramos: dados sintéticos e visão computacional para drones. Estudante de TIC na UFSC e Simulation & Dataset Developer na Global Drones.">
+  <meta name="description" content="Portfólio de Danilo Silveira Ramos: visão computacional para drones, da simulação 3D ao voo em campo. Estudante de TIC na UFSC e Simulation & Dataset Developer na Global Drones.">
   <meta name="author" content="Danilo Silveira Ramos">
   <link rel="canonical" href="https://danilosramos.github.io/">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
@@ -13,7 +13,7 @@
 
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Danilo Silveira Ramos">
-  <meta property="og:description" content="Dados sintéticos e visão computacional para drones.">
+  <meta property="og:description" content="Visão computacional para drones, da simulação 3D ao voo em campo.">
   <meta property="og:url" content="https://danilosramos.github.io/">
   <meta property="og:image" content="https://danilosramos.github.io/assets/img/og.jpg">
   <meta property="og:image:width" content="1200">
@@ -54,7 +54,7 @@
     "url": "https://danilosramos.github.io/",
     "image": "https://danilosramos.github.io/assets/img/danilo.jpg",
     "sameAs": ["https://www.linkedin.com/in/danilo-silveira-ramos", "https://github.com/danilosramos"],
-    "knowsAbout": ["Computer vision", "Synthetic data generation", "Drones", "Unreal Engine 5", "Blender"]
+    "knowsAbout": ["Computer vision", "Object detection", "YOLO", "RF-DETR", "Synthetic data generation", "Unreal Engine 5", "Blender", "Drone piloting"]
   }
   </script>
 </head>
@@ -85,8 +85,8 @@
     <section class="hero wrap" id="inicio">
       <div class="hero-text">
         <h1>Danilo Silveira Ramos</h1>
-        <p class="lead" data-l="pt">Crio ambientes 3D que viram dados para treinar visão computacional em drones.</p>
-        <p class="lead" data-l="en">I build 3D worlds that become training data for computer vision on drones.</p>
+        <p class="lead" data-l="pt">Trabalho com visão computacional para drones, da simulação 3D ao voo em campo.</p>
+        <p class="lead" data-l="en">I work on computer vision for drones, from 3D simulation to flying in the field.</p>
         <p class="sub" data-l="pt">Estudo Tecnologias da Informação e Comunicação na UFSC e trabalho como Simulation &amp; Dataset Developer na Global Drones.</p>
         <p class="sub" data-l="en">I study Information and Communication Technologies at UFSC, in Brazil, and work as a Simulation &amp; Dataset Developer at Global Drones.</p>
         <ul class="links">
@@ -96,43 +96,15 @@
         </ul>
       </div>
 
-      <figure class="sample" data-ann="on">
-        <div class="frame">
-          <picture>
-            <source type="image/webp" srcset="assets/img/danilo-600.webp 600w, assets/img/danilo.webp 864w" sizes="(min-width: 900px) 440px, 88vw">
-            <img src="assets/img/danilo.jpg" width="864" height="1184"
-                 alt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
-                 data-attr="alt"
-                 data-pt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
-                 data-en="Photo of Danilo Silveira Ramos, wearing glasses and a dark jacket, in front of glass buildings and palm trees.">
-          </picture>
-          <svg class="boxes" viewBox="0 0 864 1184" aria-hidden="true" focusable="false">
-            <g class="det" style="--i:0;--c:var(--cls-person)">
-              <path class="box" pathLength="1" d="M6 330H856V1180H6Z"/>
-              <g class="tag"><rect x="6" y="294" width="170" height="36"/><text x="15" y="320">person 0.97</text></g>
-            </g>
-            <g class="det" style="--i:1;--c:var(--cls-building)">
-              <path class="box" pathLength="1" d="M712 2H862V800H712Z"/>
-              <g class="tag"><rect x="674" y="2" width="188" height="36"/><text x="683" y="28">building 0.88</text></g>
-            </g>
-            <g class="det" style="--i:2;--c:var(--cls-building)">
-              <path class="box" pathLength="1" d="M56 456H180V590H56Z"/>
-              <g class="tag"><rect x="56" y="420" width="188" height="36"/><text x="65" y="446">building 0.71</text></g>
-            </g>
-            <g class="det" style="--i:3;--c:var(--cls-tree)">
-              <path class="box" pathLength="1" d="M596 588H690V782H596Z"/>
-              <g class="tag"><rect x="596" y="552" width="135" height="36"/><text x="605" y="578">tree 0.64</text></g>
-            </g>
-          </svg>
-        </div>
-        <figcaption>
-          <p data-l="pt">Foto real com o tipo de anotação que um detector de objetos aprende. No trabalho, gero milhares de imagens assim, só que sintéticas.</p>
-          <p data-l="en">A real photo with the kind of annotation an object detector learns from. At work I generate thousands of images like this, only synthetic.</p>
-          <button type="button" class="ann-toggle" data-toggle-ann>
-            <span class="when-on"><span data-l="pt">Ocultar anotação</span><span data-l="en">Hide annotation</span></span>
-            <span class="when-off"><span data-l="pt">Mostrar anotação</span><span data-l="en">Show annotation</span></span>
-          </button>
-        </figcaption>
+      <figure class="portrait">
+        <picture>
+          <source type="image/webp" srcset="assets/img/danilo-600.webp 600w, assets/img/danilo.webp 864w" sizes="(min-width: 900px) 440px, 88vw">
+          <img src="assets/img/danilo.jpg" width="864" height="1184"
+               alt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
+               data-attr="alt"
+               data-pt="Foto de Danilo Silveira Ramos, de óculos e jaqueta escura, em frente a prédios espelhados e palmeiras."
+               data-en="Photo of Danilo Silveira Ramos, wearing glasses and a dark jacket, in front of glass buildings and palm trees.">
+        </picture>
       </figure>
     </section>
 
@@ -144,11 +116,11 @@
           <div class="prose">
             <div data-l="pt">
               <p>Sou estudante de Tecnologias da Informação e Comunicação na UFSC Araranguá, com formatura prevista para dezembro de 2028. Comecei em Engenharia de Computação, onde descobri a visão computacional, e hoje trabalho com ela na prática.</p>
-              <p>Na Global Drones, crio cenários 3D fotorrealistas em Unreal Engine 5 e Blender para gerar imagens sintéticas que treinam modelos de detecção para drones autônomos. Antes disso, criei modelos 3D de patologias para realidade mista no LabTeC/UFSC, avaliei respostas de IA em português e inglês na Outlier e produzi conteúdo de computação e matemática para o Quizlet.</p>
+              <p>Na Global Drones, crio ambientes 3D fotorrealistas em Unreal Engine 5 e Blender para gerar imagens de treino, testo algoritmos de detecção de objetos como YOLO e RF-DETR, faço orçamentos de equipamentos e sou piloto de drone nos testes em campo. Antes disso, criei modelos 3D de patologias para realidade mista no LabTeC/UFSC, avaliei respostas de IA em português e inglês na Outlier e produzi conteúdo de computação e matemática para o Quizlet.</p>
             </div>
             <div data-l="en">
               <p>I'm an Information and Communication Technologies student at UFSC Araranguá, Brazil, graduating in December 2028. I started out in Computer Engineering, where I found computer vision, and now I work with it every day.</p>
-              <p>At Global Drones, I build photorealistic 3D scenes in Unreal Engine 5 and Blender to generate synthetic images that train detection models for autonomous drones. Before that, I created 3D pathology models for mixed reality at LabTeC/UFSC, evaluated AI responses in Portuguese and English at Outlier, and wrote computing and math content for Quizlet.</p>
+              <p>At Global Drones, I build photorealistic 3D environments in Unreal Engine 5 and Blender to generate training images, test object detection algorithms such as YOLO and RF-DETR, prepare equipment budgets and fly drones as a pilot in field tests. Before that, I created 3D pathology models for mixed reality at LabTeC/UFSC, evaluated AI responses in Portuguese and English at Outlier, and wrote computing and math content for Quizlet.</p>
             </div>
           </div>
           <dl class="facts">
@@ -189,7 +161,7 @@
           <li class="wp is-now">
             <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
             <p class="wp-when"><span data-l="pt">2026, agora</span><span data-l="en">2026, now</span></p>
-            <p class="wp-what"><span data-l="pt">Dados sintéticos e visão computacional para drones na Global Drones</span><span data-l="en">Synthetic data and computer vision for drones at Global Drones</span></p>
+            <p class="wp-what"><span data-l="pt">Simulação 3D, testes de detecção e voo de drones na Global Drones</span><span data-l="en">3D simulation, detection tests and drone flights at Global Drones</span></p>
           </li>
           <li class="wp">
             <svg class="wp-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 14.6 9.4 23 12 14.6 14.6 12 23 9.4 14.6 1 12 9.4 9.4Z"/></svg>
@@ -228,16 +200,18 @@
               <h4>Simulation &amp; Dataset Developer</h4>
               <p class="xp-org">Global Drones</p>
               <ul data-l="pt">
-                <li>Crio ambientes 3D fotorrealistas e cenários aéreos em Unreal Engine 5 para gerar datasets sintéticos de visão computacional.</li>
-                <li>Modelo, texturizo e otimizo assets 3D (drones, aves e obstáculos) em Blender e Substance Painter.</li>
-                <li>Gero imagens anotadas com variações de luz e clima para reduzir a diferença entre simulação e mundo real em um sistema de Detect and Avoid (DAA).</li>
+                <li>Crio ambientes 3D fotorrealistas e cenários aéreos em Unreal Engine 5 e Blender, com assets próprios (drones, aves e obstáculos), para gerar datasets sintéticos com variações de luz e clima para um sistema de Detect and Avoid (DAA).</li>
                 <li>Desenvolvi um pipeline em Python que exporta mais de 8.000 imagens anotadas no formato YOLO.</li>
+                <li>Testo algoritmos de detecção de objetos, como YOLO e RF-DETR.</li>
+                <li>Faço orçamentos de equipamentos para o projeto.</li>
+                <li>Sou piloto de drone nos testes em campo.</li>
               </ul>
               <ul data-l="en">
-                <li>Build photorealistic 3D environments and aerial scenarios in Unreal Engine 5 to generate synthetic computer vision datasets.</li>
-                <li>Model, texture and optimize 3D assets (drones, birds and obstacles) in Blender and Substance Painter.</li>
-                <li>Generate annotated images across lighting and weather conditions to narrow the sim-to-real gap for a Detect and Avoid (DAA) system.</li>
+                <li>Build photorealistic 3D environments and aerial scenarios in Unreal Engine 5 and Blender, with custom assets (drones, birds and obstacles), to generate synthetic datasets across lighting and weather conditions for a Detect and Avoid (DAA) system.</li>
                 <li>Built a Python pipeline that exports 8,000+ annotated images in YOLO format.</li>
+                <li>Test object detection algorithms such as YOLO and RF-DETR.</li>
+                <li>Prepare equipment budgets for the project.</li>
+                <li>Fly drones as a pilot in field tests.</li>
               </ul>
               <p class="note"><span data-l="pt">Por contrato de confidencialidade, este trabalho aparece só em texto.</span><span data-l="en">Under a confidentiality agreement, this work is described in text only.</span></p>
             </div>
@@ -321,11 +295,6 @@
             <p class="stack">Blender, Substance Painter, HoloLens 2</p>
           </li>
           <li>
-            <h4><span data-l="pt">Plataforma de ensino on-line (Meninas Digitais)</span><span data-l="en">Online learning platform (Meninas Digitais)</span></h4>
-            <p><span data-l="pt">Plataforma full-stack de cursos on-line.</span><span data-l="en">Full-stack platform for online courses.</span></p>
-            <p class="stack">TypeScript, NestJS, Next.js, Docker</p>
-          </li>
-          <li>
             <h4>KetMaker</h4>
             <p><span data-l="pt">Simulador de circuitos quânticos.</span><span data-l="en">Quantum circuit simulator.</span></p>
             <p class="stack">Python, Flask</p>
@@ -338,26 +307,35 @@
         </ul>
         <p class="more"><span data-l="pt">Outros projetos no</span><span data-l="en">More projects on</span> <a href="https://github.com/danilosramos" target="_blank" rel="noopener">GitHub</a>.</p>
 
-        <div class="two-col">
-          <div>
-            <h3><span data-l="pt">Cursos e certificados</span><span data-l="en">Courses and certificates</span></h3>
-            <ul class="plain" lang="en">
-              <li>Introduction to Prompt Engineering</li>
-              <li>Artificial Intelligence: Your Ally in the Java and Cloud Journey</li>
-              <li>Java Programming Language Fundamentals</li>
-              <li>Java Control Structures</li>
-            </ul>
-          </div>
-          <div>
-            <h3><span data-l="pt">Eventos</span><span data-l="en">Events</span></h3>
-            <ul class="plain">
-              <li><span data-l="pt">Summit Cidades 2025: apresentação do HoloAnaPath</span><span data-l="en">Summit Cidades 2025: presented HoloAnaPath</span></li>
-              <li><span data-l="pt">SNCT 2025 (Semana Nacional de Ciência e Tecnologia): apresentação do HoloAnaPath</span><span data-l="en">SNCT 2025 (Brazil's National Science and Technology Week): presented HoloAnaPath</span></li>
-              <li><span data-l="pt">Startup Weekend: duas participações</span><span data-l="en">Startup Weekend: took part twice</span></li>
-              <li>ACIVA Career Fair 2024</li>
-            </ul>
-          </div>
-        </div>
+        <h3><span data-l="pt">Cursos e certificados</span><span data-l="en">Courses and certificates</span></h3>
+        <ul class="projects certs">
+          <li>
+            <h4><span data-l="pt">Semana Nacional de Ciência e Tecnologia 2025 (SNCT)</span><span data-l="en">National Science and Technology Week 2025 (SNCT)</span></h4>
+            <p><span data-l="pt">Apresentação do projeto HoloAnaPath.</span><span data-l="en">Presented the HoloAnaPath project.</span></p>
+            <p class="stack"><span data-l="pt">MCTI, out. 2025</span><span data-l="en">MCTI, Oct 2025</span></p>
+          </li>
+          <li>
+            <h4 lang="en">Pre-MBA in Sales and Marketing with AI</h4>
+            <p><span data-l="pt">Vendas, marketing e negócios com apoio de IA.</span><span data-l="en">Sales, marketing and business with AI.</span></p>
+            <p class="stack"><span data-l="pt">Faculdade Hub, ago. 2025</span><span data-l="en">Faculdade Hub, Aug 2025</span></p>
+          </li>
+          <li>
+            <h4>Summit Cidades 2025</h4>
+            <p><span data-l="pt">Apresentação do projeto HoloAnaPath.</span><span data-l="en">Presented the HoloAnaPath project.</span></p>
+            <p class="stack"><span data-l="pt">Summit Cidades Brasil, jun. 2025</span><span data-l="en">Summit Cidades Brasil, Jun 2025</span></p>
+          </li>
+          <li>
+            <h4 lang="en">Masterclass: The Rules of the Game</h4>
+            <p><span data-l="pt">Psicologia e desenvolvimento pessoal.</span><span data-l="en">Psychology and personal development.</span></p>
+            <p class="stack"><span data-l="pt">Reservatório de Dopamina, jan. 2025</span><span data-l="en">Reservatório de Dopamina, Jan 2025</span></p>
+          </li>
+          <li>
+            <h4 lang="en">3D Modeling and Animation with Blender</h4>
+            <p><span data-l="pt">Modelagem 3D, texturização e animação.</span><span data-l="en">3D modeling, texturing and animation.</span></p>
+            <p class="stack"><span data-l="pt">LabTeC, UFSC, mar. 2024</span><span data-l="en">LabTeC, UFSC, Mar 2024</span></p>
+          </li>
+        </ul>
+        <p class="more"><span data-l="pt">Também participei de duas edições do Startup Weekend.</span><span data-l="en">I also took part in two Startup Weekends.</span></p>
       </div>
     </section>
 
@@ -370,6 +348,7 @@
             <h3><span data-l="pt">Visão computacional e dados</span><span data-l="en">Computer vision and data</span></h3>
             <ul class="chips">
               <li><span data-l="pt">Geração de dados sintéticos</span><span data-l="en">Synthetic data generation</span></li>
+              <li><span data-l="pt">Testes de YOLO e RF-DETR</span><span data-l="en">YOLO and RF-DETR testing</span></li>
               <li><span data-l="pt">Anotação no formato YOLO</span><span data-l="en">YOLO-format annotation</span></li>
               <li>OpenCV</li>
               <li><span data-l="pt">Avaliação multimodal e RLHF</span><span data-l="en">Multimodal evaluation and RLHF</span></li>
@@ -413,6 +392,7 @@
             <h3><span data-l="pt">Drones e embarcados</span><span data-l="en">Drones and embedded</span></h3>
             <ul class="chips">
               <li><span data-l="pt">Pilotagem de drones em campo</span><span data-l="en">Field drone piloting</span></li>
+              <li><span data-l="pt">Orçamento de equipamentos</span><span data-l="en">Equipment budgeting</span></li>
               <li><span data-l="pt">C para microcontroladores</span><span data-l="en">C for microcontrollers</span></li>
               <li>Assembly</li>
             </ul>

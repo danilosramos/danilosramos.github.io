@@ -1,4 +1,4 @@
-/* Portfólio de Danilo Silveira Ramos: idioma (PT/EN) e anotação da foto */
+/* Portfólio de Danilo Silveira Ramos: troca de idioma (PT/EN) */
 (function () {
   var root = document.documentElement;
   var KEY = 'portfolio-lang';
@@ -37,15 +37,6 @@
   for (var k = 0; k < langButtons.length; k++) {
     langButtons[k].addEventListener('click', function () {
       applyLang(this.getAttribute('data-set-lang'), true);
-    });
-  }
-
-  // Mostrar/ocultar as caixas do detector na foto
-  var sample = document.querySelector('.sample');
-  var toggle = document.querySelector('[data-toggle-ann]');
-  if (sample && toggle) {
-    toggle.addEventListener('click', function () {
-      sample.setAttribute('data-ann', sample.getAttribute('data-ann') === 'off' ? 'on' : 'off');
     });
   }
 })();
